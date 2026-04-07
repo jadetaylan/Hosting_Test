@@ -1,12 +1,7 @@
+import React from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-
-// ── Placeholder page components ──────────────────────────────────────────────
-// Replace these imports with your actual EnviroLab components, e.g.:
-// import Page1 from "./page1/App";
-// import Page2 from "./page2/App";
-
-const Page1 = () => "./page1";
-const Page2 = () => "./page2";
+import Page1 from "./page1";
+import Page2 from "./page2";
 
 // ── Types ─────────────────────────────────────────────────────────────────────
 interface PortalLink {
@@ -230,8 +225,6 @@ const Hub = () => (
 );
 
 // ── App with routing ──────────────────────────────────────────────────────────
-import React from "react";
-
 const App = () => (
   <BrowserRouter>
     <Routes>
