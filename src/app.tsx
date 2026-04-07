@@ -5,8 +5,8 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 // import Page1 from "./page1/App";
 // import Page2 from "./page2/App";
 
-const Page1 = () => <div>EnviroLab Page 1 — replace this with your component</div>;
-const Page2 = () => <div>EnviroLab Page 2 — replace this with your component</div>;
+const Page1 = () => "./page1";
+const Page2 = () => "./page2";
 
 // ── Types ─────────────────────────────────────────────────────────────────────
 interface PortalLink {
